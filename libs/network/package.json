@@ -1,0 +1,20 @@
+{
+  "name": "@recycle-chain/network",
+  "version": "1.0.0",
+  "private": true,
+  "main": "codegen.ts",
+  "scripts": {
+    "codegen": "graphql-codegen --config codegen.ts"
+  },
+  "keywords": [],
+  "author": "Tathata <andre.yovera1@gmail.com>",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@apollo/client": "^3.11.8",
+    "@graphql-codegen/cli": "^5.0.3",
+    "@graphql-codegen/named-operations-object": "^3.1.0",
+    "@graphql-codegen/typed-document-node": "^5.0.11",
+    "@parcel/watcher": "^2.5.0"
+  }
+}
